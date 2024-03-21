@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url:
+    username:
+    password:
+  jpa:
+      hibernate:
+        ddl-auto: update
+      properties:
+        hibernate:
+        format_sql: true
+      show-sql: true
+      defer-datasource-initialization: true
+custom:
+  jwt:
+    secret: asdasdasasdasd
+    expire-time-ms: 864000000
